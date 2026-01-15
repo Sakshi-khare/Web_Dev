@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Properties</title>
+</head>
+<style>
+     #parent{
+
+         border:2px solid black;
+         height: 400px;
+         width:100%;
+
+         display:flex;
+
+         /* Properties of flex */
+
+         /* justify-content: baseline; */
+
+         /* justify-content: center;*/
+
+         /* justify-content: end; */
+
+         /* justify-content: space-around; */
+
+         /* justify-content: space-between; */
+
+         /* justify-content: space-evenly; */
+
+           align-items: center;
+           justify-content: center;
+     } 
+
+     #parent div{
+
+        height: 100px;
+        width:100px;
+
+     }
+
+     #parent div:nth-of-type(1){
+
+         height: 100px;
+         width:100px;
+        background-color: cadetblue;
+
+     }
+
+     #parent div:nth-of-type(2){
+
+         height: 100px;
+         width:100px;
+        background-color: palevioletred;
+
+     }
+
+     #parent div:nth-of-type(3){
+
+         height: 100px;
+         width:100px;
+        background-color: cornflowerblue;
+
+     }
+
+     #parent div:nth-of-type(4){
+
+         height: 100px;
+         width:100px;
+        background-color: darkslategrey;
+     }
+
+</style>
+<body>
+
+    <h2> FlexBox </h2>
+    <div id="parent">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    </div>
+    
+</body>
+</html>
